@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <link rel="stylesheet" href="build/css/styles.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <title>GitHub Repos</title>
+</head>
+  <body>
+    <div class="jumbotron">
+      <h1>Find public Repositories by GitHub username!</h1>
+    </div>
+    <div class="container">
+        <label for="gitUser">Enter user name:</label>
+        <input id = "gitUser" type="text" name="gitUser" value="" autofocus="autofocus">
+        <button type="submit" class="btn btn-default" id="searchButton">Submit</button>
+    </div>
+    <div class="row">
+    <div class="col-sm-6" id="userDisplay">
+
+    </div>
+    <div class="col-sm-6">
+      <ul id="repoDisplay">
+
+      </ul>
+    </div>
+
+  </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "github-js-review",
+  "description": "JavaScript Code Review for Epicodus",
+  "main": "index.js",
+  "authors": [
+    "Megan Fayer"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.12.0"
+  }
+}
