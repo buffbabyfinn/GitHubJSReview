@@ -1,16 +1,10 @@
-.user_info {
-  font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
-  .user_img {
-    max-width: 10em;
-  }
-}
-
 body {
-  background-color: #FBE4C1;
+  background-color: #D59A87;
 }
 
 .gitUser {
   font-size: 1.25em;
+  margin-bottom: 3em;
   #searchButton {
     background-color: #BECD82;
   }
@@ -19,18 +13,16 @@ body {
   }
 }
 
-.row {
-  display:         flex;
-  flex-wrap: wrap;
-}
-.col {
-  display: flex;
-  flex-direction: column;
-}
-
 .jumbotron {
   background-color: #696694;
   margin-left: 0px;
   margin-right: 0px;
   text-align: center;
+}
+
+.user_info {
+  font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+  .user_img {
+    max-width: 10em;
+  }
 }
